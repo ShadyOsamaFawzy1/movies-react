@@ -1,0 +1,17 @@
+.hr_25{
+    background-color: #949cb0;
+    width: 25%;
+    height: 1px;
+    border: none;
+    padding-left: 0px;
+}
+.hr_100{
+    background-color: #949cb0;
+    width: 100%;
+    height: 1px;
+    border: none;
+}
+
+.shadow{
+    color: #949cb0;
+}

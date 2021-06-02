@@ -1,0 +1,8 @@
+.bg{
+    background-color: transparent !important;
+}
+
+.badge_position{
+    right: -4px;
+    top: -4px;
+}
