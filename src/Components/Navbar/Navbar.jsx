@@ -3,6 +3,7 @@ import Styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom'
 
+import { faFacebook, faSpotify, faInstagram , faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export class Navbar extends Component {
     render() {
@@ -43,7 +44,20 @@ export class Navbar extends Component {
                         <form className="form-inline my-2 my-lg-0">
                             <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search_input" />
                         </form>
-                        <ul className="navbar-nav ">
+                        <ul className="navbar-nav  p-2 ">
+                           
+                            <li className="nav-item p-2">
+                                <FontAwesomeIcon color='white' icon={faFacebook}/>
+                            </li>
+                            <li className="nav-item p-2">
+                                <FontAwesomeIcon color='white' icon={faSpotify}/>
+                            </li>
+                            <li className="nav-item p-2">
+                                <FontAwesomeIcon color='white' icon={faInstagram}/>
+                            </li>
+                            <li className="nav-item p-2">
+                                <FontAwesomeIcon color='white' icon={faYoutube}/>
+                            </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/logout">Logout</NavLink>
                             </li>
